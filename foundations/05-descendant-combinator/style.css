@@ -1,0 +1,5 @@
+div p{ /*This works because it's selects all the p elements that are nested inside div elements, and leave all the p elements that are not nested*/
+    background-color: #ffff00;
+    color: #ff0000;
+    font-size: 20px;
+}

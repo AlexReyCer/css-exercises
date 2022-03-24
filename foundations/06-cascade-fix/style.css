@@ -2,20 +2,15 @@
 .small-para {
   color: hsl(0, 100%, 50%);
 }
+.para {
+  font-size: 22px; /*Moved the .para class above the .small-para block*/
+}
 
 .small-para {
   font-size: 14px;
 }
 
-.para {
-  font-size: 22px;
-}
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -23,7 +18,13 @@
   font-size: 20px;
 }
 
-.child {
+.confirm {
+  background: green;
+  color: white;    /*Moved this block below the .button class.*/
+  font-weight: bold;
+} 
+
+div.text.child { /*Added the selector div and .text so that it only targets the corresponding div*/
   color: red;
   font-size: 14px;
 }

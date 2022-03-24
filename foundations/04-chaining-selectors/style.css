@@ -1,0 +1,8 @@
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+}
+.avatar.distorted{
+    height: 400px;
+    width: 200px;
+} /*I had a space in each class selector, and my windows was max out in half so i didnt notice the changes at first*/

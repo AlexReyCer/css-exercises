@@ -1,0 +1,22 @@
+/* *{ I though that i should add a universal selector for all the elements in the page.
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}*/
+.pclass {
+    background-color: #ff9999;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+.pcool{
+    font-size: 24px;
+}
+#second{
+    color: #188eee;
+    font-size: 36px;
+}
+/*#third{
+    font-size: 24px; According to the solution the Number 3 should have 2 classes, my solution was to add an id id="third" to that element
+}*/
+#fourth{
+    background-color: #70eb70;
+    font-size: 24px;
+    font-weight: bold;
+}
