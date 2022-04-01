@@ -10,7 +10,57 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
 }
+
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 80px;
+  margin: 2%;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.box .text {
+  text-align: center; 
+}
+/*SOLUTION 
+body {
+  text-align: center  
+} 
+.title {
+  margin-bottom: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* do not edit this footer */
 .footer {
@@ -24,3 +74,46 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+
+/*.box .text {
+  width: 10rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}*/
+
+/*.container img{
+  
+}*
+
+.container.box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}/
+
+/*!ORIGINAL CSS */
+
+/*.title {
+  font-size: 36px;
+  font-weight: 900;
+  flex-grow: ;
+  /*width: 100%;
+  text-align: center;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+
+
+.title { 
+  font-size: 36px;
+  font-weight: 900;
+}*/
